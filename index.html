@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./fonts/all.min.css">
+  <link rel="stylesheet" href="./lib/bootstrap.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/media.css">
+  <title>pet shop</title>
+</head>
+
+<body>
+  <header class="header pt-4 pt-sm-5">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand logo p-0 m-0" href="#">
+          <img src="./images/logo.png" alt="">
+          pet shop
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 d-flex flex-column flex-lg-row gap-2 gap-lg-5 text-center text-lg-start
+          mt-4 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Каталог</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">О сервисе</a>
+            </li>
+          </ul>
+          <div class="contacts d-flex gap-3 gap-lg-4 flex-column flex-lg-row ms-lg-auto text-center ">
+            <a href="tel:+998990307544" class="nav__phone">
+              <div class="nav__phone-icon"><i class="fas fa-phone-alt"></i></div>
+              <div class="nav__phone-number">+7 988 777-88-77</div>
+            </a>
+            <div class="dark__mode m-0 ms=lg-3">
+              <div class="nav__like1 active"></div>
+              <div class="nav__like2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+<div class="container">
+  <div class="intro  mt-4 mt-sm-5 ">
+    <div class="intro__item">
+      <h1 class="intro__title m-auto m-sm-0">Твой новый друг с доставкой на дом</h1>
+      <div class="intro__text">Онлайн-магазин домашних животных подарит тебе нового друга в несколько
+        кликов.
+        Действуй!</div>
+      <a href="#!" class="intro__button">Купить сейчас</a>
+    </div>
+    <div class="slider">
+      <div class="slider__line mt-4 mt-sm-5">
+          <div class="slider__slide">
+            <img class="intro__rotate" src="./images/intro__rotate.png" alt="">
+            <img class="intro__backg" src="./images/intro__backg.png" alt="">
+            <img class="intro__cat" src="./images/intro__cat.png" alt="">
+            <img class="intro__dog" src="./images/intro__dog.png" alt="">
+          </div>
+          <div class="slider__slide">
+            <img class="intro__rotate" src="./images/intro__rotate.png" alt="">
+            <img class="intro__backg" src="./images/intro__backg.png" alt="">
+            <img class="intro__cat" src="./images/intro__cat.png" alt="">
+            <img class="intro__dog" src="./images/intro__dog.png" alt="">
+          </div>
+          <div class="slider__slide">
+            <img class="intro__rotate" src="./images/intro__rotate.png" alt="">
+            <img class="intro__backg" src="./images/intro__backg.png" alt="">
+            <img class="intro__cat" src="./images/intro__cat.png" alt="">
+            <img class="intro__dog" src="./images/intro__dog.png" alt="">
+          </div>
+        
+      </div>
+      <div class="slider__controls">
+          <button class="slider__prev">
+            <span class="fas fa-paw"></span>
+          </button>
+          <button class="slider__next">
+            <span class="fas fa-paw"></span>
+          </button>
+      </div>
+  </div>
+
+  </div>
+
+</div>
+ 
+  </header>
+  <!-- <div class="slider d-flex"> 
+  <div class="slider__line d-flex "> 
+    <div class="carousel-inner">
+      <div class="header__background slider__slide active">
+          <img class="intro__img" src="./images/header-back.png" alt="">
+          <div class="animate__img">
+              <img src="./images/Животные.png" alt="">
+          </div>
+      </div>
+      <div class="header__background slider__slide ">
+          <img class="intro__img" src="./images/header-back.png" alt="">
+          <div class="animate__img">
+              <img src="./images/Животные.png" alt="">
+          </div>
+      </div>
+      <div class="header__background slider__slide ">
+          <img class="intro__img" src="./images/header-back.png" alt="">
+          <div class="animate__img">
+              <img src="./images/Животные.png" alt="">
+          </div>
+      </div>
+ 
+</div>
+  </div>
+</div>
+</div>
+      <div class="slider__controls">
+        <button class="slider__prev">
+          <span class="fas fa-paw"></span>
+        </button>
+        <button class="slider__next">
+          <span class="fas fa-paw"></span>
+        </button>
+      </div> -->
+
+  <main>
+    <section class="category sections-pedding">
+      <h2 class="category__title w__title">Популярные категории</h2>
+      <div class="container">
+        <div class="category__row d-flex flex-column flex-xl-row gap-4 m-auto ">
+          <div class="category__col d-flex flex-column flex-sm-row gap-4">
+            <div class="category__item category__item1">
+              <img src="./images/category__dog.png" alt="" class="category__img">
+              <p class="category__text">Собаки</p>
+              <div class="category__line"></div>
+            </div>
+            <div class="category__item category__item2">
+              <img src="./images/category__cat.png" alt="" class="category__img">
+              <p class="category__text">Кошки</p>
+              <div class="category__line"></div>
+            </div>
+          </div>
+          <div class=" category__col d-flex flex-column-reverse flex-sm-row gap-4">
+            <div class="category__item category__item3">
+              <img src="./images/category__bird.png" alt="" class="category__img">
+              <p class="category__text">Птицы</p>
+              <div class="category__line"></div>
+            </div>
+            <div class="category__item category__item4">
+              <img src="./images/category__fish.png" alt="" class="category__img">
+              <p class="category__text">Рыбы</p>
+              <div class="category__line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="product sections-pedding">
+      <h2 class="product__title b__title">Наши продукты</h2>
+      <p class="product__text section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi
+        adipiscing nunc. Sagittis arcu cursus lorem ultricies </p>
+
+      <div class="container">
+        <div class="product__row d-flex flex-column flex-xl-row gap-4 m-auto ">
+          <div class="product__col d-flex flex-column flex-sm-row gap-4">
+            <div class="product__item product__item1">
+              <img src="./images/product__dog.png" alt="" class="product__img">
+              <p class="product__text">Корм для собак</p>
+              <button>
+                <a href="#!" class="product__button">Смотреть</a>
+              </button>
+            </div>
+            <div class="product__item product__item2">
+              <img src="./images/product__cat.png" alt="" class="product__img">
+              <p class="product__text">корм для кошек</p>
+              <button>
+                <a href="#!" class="product__button">Смотреть</a>
+              </button>
+            </div>
+          </div>
+          <div class="product__col d-flex flex-column flex-sm-row gap-4">
+            <div class="product__item product__item3">
+              <img src="./images/product__bird.png" alt="" class="product__img">
+              <p class="product__text">Корм для птиц</p>
+              <button>
+                <a href="#!" class="product__button">Смотреть</a>
+              </button>
+            </div>
+            <div class="product__item product__item4">
+              <img src="./images/product__fish.png" alt="" class="product__img">
+              <p class="product__text">Корм для рыбам</p>
+              <button>
+                <a href="#!" class="product__button">Смотреть</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="special sections-pedding">
+      <h2 class="special__title b__title">Специальные продукты </h2>
+      <p class="special__subtitle section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam
+        nisi adipiscing nunc. Sagittis arcu cursus lorem ultricies </p>
+      <div class="container">
+        <div class="special__row d-flex flex-column flex-xl-row gap-4 m-auto ">
+          <div class="special__col d-flex flex-column flex-sm-row gap-4">
+            <div class="special__item special__item1 ">
+              <a href="#!"><span class="special__icon fal fa-search"></span></a>
+              <img src="./images/special__img1.png" alt="" class="special__img">
+              <p class="special__text">Лучшие друзья
+                Шери Deep Dish Sherpa</p>
+              <div class="special__info">
+                <p class="special__price">Цена: 90$</p>
+                <div class="special__icons d-flex gap-3">
+                  <a href="#!"><span class="special__heart fal fa-heart"></span></a>
+                  <a href="#!"><span class="special__cart fal fa-shopping-cart"></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="special__item special__item2">
+              <a href="#!"><span class="special__icon fal fa-search"></span></a>
+              <img src="./images/special__img2.png" alt="" class="special__img">
+              <p class="special__text">Лучшие друзья
+                Шери Deep Dish Sherpa</p>
+              <div class="special__info">
+                <p class="special__price">Цена: 90$</p>
+                <div class="special__icons d-flex gap-3">
+                  <a href="#!"><span class="special__heart fal fa-heart"></span></a>
+                  <a href="#!"><span class="special__cart fal fa-shopping-cart"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" special__col d-flex flex-column-reverse flex-sm-row gap-4">
+            <div class="special__item special__item3">
+              <a href="#!"><span class="special__icon fal fa-search"></span></a>
+              <img src="./images/special__img3.png" alt="" class="special__img">
+              <p class="special__text">Лучшие друзья
+                Шери Deep Dish Sherpa</p>
+              <div class="special__info">
+                <p class="special__price">Цена: 90$</p>
+                <div class="special__icons d-flex gap-3">
+                  <a href="#!"><span class="special__heart fal fa-heart"></span></a>
+                  <a href="#!"><span class="special__cart fal fa-shopping-cart"></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="special__item special__item4">
+              <a href="#!"><span class="special__icon fal fa-search"></span></a>
+              <img src="./images/special__img4.png" alt="" class="special__img">
+              <p class="special__text">Лучшие друзья
+                Шери Deep Dish Sherpa</p>
+              <div class="special__info">
+                <p class="special__price">Цена: 90$</p>
+                <div class="special__icons d-flex gap-3">
+                  <a href="#!"><span class="special__heart fal fa-heart"></span></a>
+                  <a href="#!"><span class="special__cart fal fa-shopping-cart"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="doctor sections-pedding">
+      <h2 class="doctor__title w__title">Наши ветеринары</h2>
+      <p class="doctor__text section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi
+        adipiscing nunc. Sagittis arcu cursus lorem ultricies </p>
+      <div class="container">
+        <div class="special__row d-flex flex-column flex-xl-row gap-4 m-auto ">
+          <div class="special__col d-flex flex-column  gap-4">
+            <div class="doctor__item doctor__item1 d-flex  flex-column flex-sm-row ">
+              <div class="doctor__img"><img src="./images/doctor__img1.png" alt=""></div>
+              <div class="doctor__contact pe-sm-4">
+                <div class="doctor__phone">
+                  <i class="fas fa-phone-alt phone__icon"></i>
+                  <a class="doctor__phone-link" href="tel:+998990307544"> +7 988 777-88-77</a>
+                </div>
+                <div class="doctor__name">София Адамс</div>
+                <div class="doctor__profs"><i class="doctor__pharm fal fa-stethoscope"></i> Ветеринарный Врач</div>
+                <div class="doctor__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi
+                  adipiscing </div>
+                <div class="doctor__social  ">
+                  <a href="#!" class="doctor__social-link"><i class="fab fa-instagram"></i></a>
+                  <a href="#!" class="doctor__social-link"><i class="fab fa-vk"></i></a>
+                  <a href="#!" class="doctor__social-link"><i class="fab fa-facebook-f"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="doctor__item doctor__item2 d-flex flex-column flex-sm-row">
+              <div class="doctor__img"><img src="./images/doctor__img2.png" alt=""></div>
+              <div class="doctor__contact">
+                <div class="doctor__phone">
+                  <i class="fas fa-phone-alt phone__icon"></i>
+                  <a class="doctor__phone-link" href="tel:+998990307544"> +7 988 777-88-77</a>
+                </div>
+                <div class="doctor__name">Азарова Мария</div>
+                <div class="doctor__profs"><i class="doctor__pharm fal fa-stethoscope"></i>Эпидемиолог</div>
+                <div class="doctor__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi
+                  adipiscing </div>
+                <div class="doctor__social">
+                  <a href="#!" class="doctor__social-link"><i class="fab fa-instagram"></i></a>
+                  <a href="#!" class="doctor__social-link"><i class="fab fa-vk"></i></a>
+                  <a href="#!" class="doctor__social-link"><i class="fab fa-facebook-f"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="doctor__col d-flex flex-column-reverse  gap-4">
+            <div class="doctor__item doctor__item3 d-flex flex-column flex-sm-row">
+              <div class="doctor__img"><img src="./images/doctor__img3.png" alt=""></div>
+              <div class="doctor__contact">
+                <div class="doctor__phone">
+                  <i class="fas fa-phone-alt phone__icon"></i>
+                  <a class="doctor__phone-link" href="tel:+998990307544"> +7 988 777-88-77</a>
+                </div>
+                <div class="doctor__name">Брайан Адамс</div>
+                <div class="doctor__profs"><i class="doctor__pharm fal fa-stethoscope"></i>Физиотерапевт </div>
+                <div class="doctor__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi
+                  adipiscing </div>
+                <div class="doctor__social">
+                  <a href="#!" class="doctor__social-link"><i class="fab fa-instagram"></i></a>
+                  <a href="#!" class="doctor__social-link"><i class="fab fa-vk"></i></a>
+                  <a href="#!" class="doctor__social-link"><i class="fab fa-facebook-f"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="doctor__item doctor__item4 d-flex flex-column flex-sm-row">
+              <div class="doctor__img"><img src="./images/doctor__img4.png" alt=""></div>
+              <div class="doctor__contact pe-sm-4">
+                <div class="doctor__phone">
+                  <i class="fas fa-phone-alt phone__icon"></i>
+                  <a class="doctor__phone-link" href="tel:+998990307544"> +7 988 777-88-77</a>
+                </div>
+                <div class="doctor__name">Смирнова Ольга</div>
+                <div class="doctor__profs"><i class="doctor__pharm fal fa-stethoscope"></i> Стоматолог</div>
+                <div class="doctor__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi
+                  adipiscing </div>
+                <div class="doctor__social">
+                  <a href="#!" class="doctor__social-link"><i class="fab fa-instagram"></i></a>
+                  <a href="#!" class="doctor__social-link"><i class="fab fa-vk"></i></a>
+                  <a href="#!" class="doctor__social-link"><i class="fab fa-facebook-f"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="news sections-pedding">
+      <h2 class="news__title b__title">Новости животных сегодня</h2>
+      <p class="news__text section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi
+        adipiscing nunc. Sagittis arcu cursus lorem ultricies </p>
+      <div class="container">
+        <div class="news__row  d-flex flex-column flex-xl-row gap-4 m-auto ">
+          <div class="news__left news__col gap-4">
+            <img class="news__img1" src="./images/news-img.png" alt="">
+            <div class="new__info">
+              <h2 class="news__info-title">Новости животных</h2>
+              <p class="news__info-text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit
+                tractatos, vero tractatos ius an, in mel Eu usu vidit tractatos, vero tractatos ius an, in mel Quidam
+                vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, tractatos, vero tractatos
+                ius an, in mel !!!</p>
+              <button>
+                <a href="#!" class="news__info-button">Смотреть</a>
+              </button>
+            </div>
+          </div>
+          <div class="news__col2 news__col d-flex flex-column gap-3 gap-sm-4 m-auto ">
+            <div class="news__div d-flex gap-3 gap-sm-4">
+              <img class="news__img" src="./images/news-img-2.png" alt="">
+              <img class="news__img" src="./images/news-img-3.png" alt="">
+            </div>
+            <div class="news__div d-flex gap-3 gap-sm-4">
+              <img class="news__img" src="./images/news-img-4.png" alt="">
+              <img class="news__img" src="./images/news-img-5.png" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer sections-pedding">
+    <div class="container">
+      <div class="footer__inner d-flex flex-column flex-xl-row m-auto">
+        <div class="footer__item d-flex  flex-column flex-sm-row m-auto">
+          <div class="footer__contact">
+            <div class="footer__logo logo"><img src="./images/logo.png" alt="">pet shop</div>
+            <div class="footer__contact-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis quam nisi adipiscing nunc.
+              Sagittis arcu cursus lorem
+            </div>
+            <a href="tel:+7 988 777-88-77" class="footer__contact-phone">
+              <span class="fas fa-phone-alt"> </span> +7 988 777-88-77
+            </a>
+            <div class="footer__contact-search">
+              <input type="search" placeholder="Search Items">
+            </div>
+          </div>
+          <div class="footer__news m-auto m-sm-0">
+            <div class="footer-news__title">Новости</div>
+            <div class="footer-news">
+              <div class="footer__news-block">
+                <img src="./images/footer__img1.png" />
+                <div class="footer__news-text">
+                  <div class="footer__text-title">Вфывфывфыввыф</div>
+                  <div class="footer__text-data"><i class="fad fa-calendar-alt footer__text-icon"></i>18.08.2020
+                  </div>
+                </div>
+              </div>
+              <div class="footer__news-block">
+                <img src="./images/footer__img2.png" />
+                <div class="footer__news-text">
+                  <div class="footer__text-title">Вфывфывфыввыф</div>
+                  <div class="footer__text-data"><i class="fad fa-calendar-alt footer__text-icon"></i>18.08.2020</div>
+                </div>
+              </div>
+              <div class="footer__news-block">
+                <img src="./images/footer__img3.png" />
+                <div class="footer__news-text">
+                  <div class="footer__text-title">Вфывфывфыввыф</div>
+                  <div class="footer__text-data"><i class="fad fa-calendar-alt footer__text-icon"></i>18.08.2020</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__item d-flex flex-column flex-sm-row m-auto">
+          <div class="footer__insta m-auto m-sm-0">
+            <div class="footer-insta__title">Инстаграм</div>
+            <div class="insta-blocks">
+              <div class="footer__insta-block">
+                <img src="./images/footer__img4.png" />
+                <img src="./images/footer__img5.png" />
+              </div>
+              <div class="footer__insta-block">
+                <img src="./images/footer__img6.png" />
+                <img src="./images/footer__img7.png" />
+              </div>
+              <div class="footer__insta-block">
+                <img src="./images/footer__img8.png" />
+                <img src="./images/footer__img9.png" />
+              </div>
+            </div>
+          </div>
+          <div class="footer__form">
+
+            <div class="footer__form-img"><img src="./images/footer__dog.png" alt=""></div>
+            <form action="#" class="footer__form-block">
+
+              <div class="footer__form-title">ПОДПИСЫВАЙСЯ!!!</div>
+              <div class="footer__form-subtitle">НОВИНКИ, СКИДКИ,
+                ПРЕДЛОЖЕНИЯ!</div>
+              <input type="text" class="footer__input" placeholder="Введите адрес электронной почты">
+              <button><a class="footer__button" href="#!">ПОДПИСЫВАЙСЯ</a></button>
+            </form>
+            <a href="#"><i class="arrow-up fas fa-chevron-up "></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="window__box ">
+      <div class="header__window col-9 col-sm-6 gap-4">
+        <img src="./images/header-window.png" alt="" class="window__img col-6 col-lg-4 mt-3  mt-lg-5 mb-auto">
+        <div class="window__info">
+          <h2 class="window__title">ПОДПИСЫВАЙСЯ!!!</h2>
+          <p class="window__sales">НОВИНКИ, СКИДКИ,
+            ПРЕДЛОЖЕНИЯ!</p>
+          <input class="window__search " type="text" placeholder="Введите адрес электронной почты">
+          <button class="window__button">ПОДПИСЫВАЙСЯ</button>
+          <p class="window__text">Больше не показывать это сообщение</p>
+          <img src="./images/close__img.png" alt="" class="close__img">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./lib/bootstrap.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
