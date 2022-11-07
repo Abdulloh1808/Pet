@@ -221,6 +221,14 @@
         gap: 0px;
         padding-bottom: 50px;
     }
+    .div {
+        width: 150px;
+        height: 150px;
+    }
+    .loader {
+        width: 210px;
+        height: 210px;
+    }
 }
 @media(max-width:550px){
     .intro{
@@ -545,6 +553,18 @@
     .slider{
         max-width: 320px;
         width: 100%;
+    } .div {
+        width: 90px;
+        height: 90px;
+    }
+    .loader {
+        width: 125px;
+        height: 125px;
+    }
+    .loader::before {
+        content: '';
+        width: 20px;
+        height: 20px;
     }
 }
 

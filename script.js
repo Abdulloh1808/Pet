@@ -23,7 +23,6 @@ windowButton.addEventListener('click', ()=>{
     location.reload()
  })
 
-
 class Slider {
     constructor(el) {
         this.slider = document.querySelector(el.slider)
@@ -123,7 +122,7 @@ function typing(i = 0) {
     if (i < txt.length) {
         setTimeout(() => {
             typing(i)
-        }, 100);
+        }, 200);
     }
 }
 typing()
