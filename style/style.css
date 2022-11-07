@@ -569,7 +569,7 @@ body::-webkit-scrollbar-thumb {
 
 }
 .slider__line{
-    height:  690px;
+    height:  650px;
     display: flex;
 }
 /* intro end */
