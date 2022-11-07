@@ -56,11 +56,11 @@
         align-items: center;
     }
     .slider__prev{
-        top: 93%;
+        top: 92%;
         left: 40%;
     }
     .slider__next{
-        top: 93%;
+        top: 92%;
         right: 40%;
     }
     .intro{
@@ -170,11 +170,11 @@
         width: 90%;
     }
     .slider__prev{
-        top: 93%;
+        top: 92%;
         left: 30%;
     }
     .slider__next{
-        top: 93%;
+        top: 92%;
         right: 30%;
     }
     .news__left{
