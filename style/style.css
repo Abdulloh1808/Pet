@@ -54,8 +54,8 @@ ul {
 
     0%,
     80% {
-        opacity: 1;
-        z-index: 99;
+        opacity: 0;
+        z-index: -99;
     }
 }
 
@@ -569,7 +569,7 @@ body::-webkit-scrollbar-thumb {
 
 }
 .slider__line{
-    height: 720px;
+    height:  690px;
     display: flex;
 }
 /* intro end */
